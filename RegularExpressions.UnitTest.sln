@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpressions.UnitTest", "RegularExpressions.UnitTest\RegularExpressions.UnitTest.csproj", "{65110954-4171-4ABE-A829-1FAAC5AC70A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpressions", "RegularExpressions\RegularExpressions.csproj", "{FE36E2AF-7E16-4397-BD04-681D2BE17519}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65110954-4171-4ABE-A829-1FAAC5AC70A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65110954-4171-4ABE-A829-1FAAC5AC70A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65110954-4171-4ABE-A829-1FAAC5AC70A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65110954-4171-4ABE-A829-1FAAC5AC70A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE36E2AF-7E16-4397-BD04-681D2BE17519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE36E2AF-7E16-4397-BD04-681D2BE17519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE36E2AF-7E16-4397-BD04-681D2BE17519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE36E2AF-7E16-4397-BD04-681D2BE17519}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B41537A2-CFD4-4F9A-87BE-C5B5653C4C3E}
+	EndGlobalSection
+EndGlobal
