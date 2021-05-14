@@ -3,3 +3,7 @@
 ################################################################################
 
 /RegularExpressions/obj/Debug
+/RegularExpressions/bin/Debug
+/.vs/RegularExpressions.UnitTest/v16
+/RegularExpressions.UnitTest/bin/Debug
+/RegularExpressions.UnitTest/obj/Debug
