@@ -79,6 +79,7 @@ namespace RegularExpressions
                 }
                 //System.IO.File.WriteAllText(filePath, sb.ToString(), System.Text.Encoding.UTF8);
                 System.IO.File.WriteAllText(filePath, string.Join(System.Environment.NewLine, filesHasFound), System.Text.Encoding.UTF8);
+                System.Diagnostics.Process.Start(@"C:\Program Files \Notepad++\notepad++.exe", filePath);
             }
         }
     }

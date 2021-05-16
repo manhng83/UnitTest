@@ -9,16 +9,18 @@ namespace RegularExpressions.UnitTest
         public void Example_RegexMatch_SearchCode_ReturnSuccess()
         {
             // Setup
-            var test = new Example();
+            var example = new Example();
+
+            string expected = string.Empty;
 
             // Arrange
-            test.RegexMatch_SearchCode();
+            example.RegexMatch_SearchCode();
 
             // Act
-            string timeOfDay = string.Empty;
+            string actual = string.Empty;
 
             // Assert
-            Assert.AreEqual(string.Empty, timeOfDay);
+            Assert.AreEqual(expected, actual);
         }
     }
 }
