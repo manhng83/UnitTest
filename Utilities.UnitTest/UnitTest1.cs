@@ -1,20 +1,20 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace RegularExpressions.UnitTest
+namespace Utilities.UnitTest
 {
     [TestClass]
     public class UnitTest1
     {
         [TestMethod]
-        public void Example_RegexMatch_SearchCode_ReturnSuccess()
+        public void WebRequestExample_AfterLoginSuccess_ReturnJson()
         {
             //Setup
-            var example = new Example();
+            var webRequestExample = new WebRequestExample();
 
             string expected = string.Empty;
 
             //Arrange
-            example.RegexMatch_SearchCode();
+            webRequestExample.apiDepartmentGet();
 
             //Act
             string actual = string.Empty;

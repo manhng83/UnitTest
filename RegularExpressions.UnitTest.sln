@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpressions.UnitTest
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpressions", "RegularExpressions\RegularExpressions.csproj", "{FE36E2AF-7E16-4397-BD04-681D2BE17519}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{78ACC0B0-01A8-4ABD-B775-50E587DE2770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities.UnitTest", "Utilities.UnitTest\Utilities.UnitTest.csproj", "{A2354C39-BA69-472D-BAF2-46EB2109B2C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{FE36E2AF-7E16-4397-BD04-681D2BE17519}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE36E2AF-7E16-4397-BD04-681D2BE17519}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE36E2AF-7E16-4397-BD04-681D2BE17519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78ACC0B0-01A8-4ABD-B775-50E587DE2770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78ACC0B0-01A8-4ABD-B775-50E587DE2770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78ACC0B0-01A8-4ABD-B775-50E587DE2770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78ACC0B0-01A8-4ABD-B775-50E587DE2770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2354C39-BA69-472D-BAF2-46EB2109B2C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2354C39-BA69-472D-BAF2-46EB2109B2C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2354C39-BA69-472D-BAF2-46EB2109B2C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2354C39-BA69-472D-BAF2-46EB2109B2C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

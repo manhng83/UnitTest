@@ -15,7 +15,7 @@ namespace RegularExpressions
     {
         public static string FileOutputName = "SearchCode.txt";
         public static string SearchText = @"\bFunctions.Get\w*Service\b"; //DELETE ME
-        public static string Folder = @"C:\Src\"; //DELETE ME
+        public static string Folder = @"C:\Git\AsclepiosGiT\Asclepios Web\"; //DELETE ME
 
         /// <summary>
         /// Search all code has text like "Functions.GetXXXService"
@@ -39,17 +39,18 @@ namespace RegularExpressions
                 for (int i = 0; i < files.Length; i++)
                 {
                     string f = files[i];
-                    if (!f.Contains(@"\Controllers\"))
-                    {
-                        continue;
-                    }
+                    //if (!f.Contains(@"\Controllers\"))
+                    //{
+                    //    continue;
+                    //}
                     string[] fContent = System.IO.File.ReadAllLines(f, System.Text.Encoding.UTF8);
                     for (int j = 0; j < fContent.Length; j++)
                     {
                         string line = fContent[j];
-                        string lineNoTab = System.Text.RegularExpressions.Regex.Replace(line, "   //", "//");
-                        string lineNoSpaceBeforeSlashSlash = System.Text.RegularExpressions.Regex.Replace(lineNoTab, "  //", "//");
-                        string input = System.Text.RegularExpressions.Regex.Replace(lineNoSpaceBeforeSlashSlash, " //", "//");
+                        string input = line;
+                        //string lineNoTab = System.Text.RegularExpressions.Regex.Replace(line, "   //", "//");
+                        //string lineNoSpaceBeforeSlashSlash = System.Text.RegularExpressions.Regex.Replace(lineNoTab, "  //", "//");
+                        //string input = System.Text.RegularExpressions.Regex.Replace(lineNoSpaceBeforeSlashSlash, " //", "//");
 
                         System.Text.RegularExpressions.Match m = System.Text.RegularExpressions.Regex.Match(input, pattern, System.Text.RegularExpressions.RegexOptions.IgnoreCase);
 
